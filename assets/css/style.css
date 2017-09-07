@@ -146,6 +146,33 @@ body	{
 	color: grey;
 }
 
+#post a:link, #post a:visited	{
+	text-decoration: underline;
+	color:#000
+}
+
+#post a:hover	{
+	text-decoration: none;
+}
+
 #more {
 	text-align: center;
+}
+
+#categories a:link, #categories a:visited	{
+	text-decoration: none;
+	color:#000
+}
+
+#categories a:hover	{
+	text-decoration: underline;
+}
+
+#categories a:link, #categories a:visited	{
+	text-decoration: none;
+	color:#000
+}
+
+#categories a:hover	{
+	text-decoration: underline;
 }

@@ -6,7 +6,7 @@
 		{% include logo.html %}
 		{% include nav.html %}
 		<div id="content-left">
-      <h2>{{page.category}}</h2>
+      <h2>Category: {{page.category}}</h2>
       {% for post in site.categories[page.category] %}
         <div id="post-short">
           <a href="{{site.url}}{{site.baseurl}}{{post.url}}">
