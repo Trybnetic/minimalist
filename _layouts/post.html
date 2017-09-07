@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang={{site.language}}>
+  {% include head.html %}
+  <body>
+	<div id="main">
+    <div id="post">
+  		{% include logo.html %}
+  		{% include nav.html %}
+  		<div id="content-left">
+        <h2>{{ page.title }}</h2>
+        <i>posted on {{ page.date | date: "%-d %b %Y" }}</i>
+        <p>
+          {{ content }}
+        </p>
+  		</div>
+    </div>
+		{% include footer.html %}
+	</div>
+    </body>
+</html>

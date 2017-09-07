@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang={{site.language}}>
+  {% include head.html %}
+  <body>
+	<div id="main">
+		{% include logo.html %}
+		{% include nav.html %}
+		<div id="content-left">
+      <h2>{{page.category}}</h2>
+      {% for post in site.categories[page.category] %}
+        <div id="post-short">
+          <a href="{{site.url}}{{site.baseurl}}{{post.url}}">
+            <h3>{{post.title}}</h3>
+          </a>
+          <i>posted on {{ post.date | date: "%-d %b %Y" }}</i>
+          <p>
+            {% if post.excerpt %}
+              {{ post.excerpt }}
+            {% else %}
+              {{ post.content }}
+            {% endif %}
+          </p>
+        </div>
+      {% endfor %}
+		</div>
+		{% include footer.html %}
+	</div>
+    </body>
+</html>
