@@ -25,7 +25,7 @@ github_username:  Trybnetic
 markdown: kramdown
 theme: minima
 
-permalink: /:year/:month/:day/:title.html
+permalink: /:year/:month/:day/:title/
 
 gems:
   - jekyll-feed
