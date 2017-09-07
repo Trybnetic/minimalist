@@ -3,15 +3,22 @@
   {% include head.html %}
   <body>
 	<div id="main">
-    <div id="post">
-  		{% include logo.html %}
-  		{% include nav.html %}
-  		<div id="content-left">
+  	{% include logo.html %}
+  	{% include nav.html %}
+		<div id="content-left">
+      <div id="post">
         <h2>{{ page.title }}</h2>
         <i>posted on {{ page.date | date: "%-d %b %Y" }}</i>
         <p>
           {{ content }}
         </p>
+        <div id="categories">
+          <p><b>Categories:</b>&nbsp;
+            {% for category in page.categories %}
+              <a href="{{site.url}}{{site.baseurl}}/categories/{{category}}/">#{{category}}</a>&nbsp;
+            {% endfor %}
+          </p>
+        </div>
   		</div>
     </div>
 		{% include footer.html %}
