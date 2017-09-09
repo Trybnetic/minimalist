@@ -117,7 +117,38 @@ a:hover	{
 	}
 
 	#nav {
-		font-size: 1.5em;
+		font-size: 2em;
+		padding-bottom: 0.5em;
+	}
+
+	h2 {
+		font-size: 3em;
+	}
+
+	h3 {
+		font-size: 2em;
+	}
+
+}
+
+@media screen and (max-width: 400px) {
+	#main {
+		width: auto;
+		margin: 0 auto;
+		padding: 10px;
+	}
+
+	#logo, #nav, #content-left,	#footer {
+		display: block;
+		width: 100%;
+	}
+
+	#logo img {
+		max-width: 80%;
+	}
+
+	#nav {
+		font-size: 1.3em;
 		padding-bottom: 0.5em;
 	}
 
