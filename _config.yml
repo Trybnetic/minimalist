@@ -17,8 +17,8 @@ title: Trybnetic | msw
 owner: Marc Weitz
 email: webmaster@marc-weitz.de
 description: Website and blog of Marc Weitz
-baseurl: "/minimalist" # the subpath of your site, e.g. /blog
-url: "https://trybnetic.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 language: en
 twitter_username: Trybnetic
 github_username:  Trybnetic
