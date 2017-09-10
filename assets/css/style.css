@@ -66,13 +66,22 @@ a:hover	{
 	max-width: 50%;
 }
 
-#post a:link, #post a:visited	{
+#content-left a:link, #content-left a:visited	{
 	text-decoration: underline;
 	color:#000
 }
 
-#post a:hover	{
+#content-left a:hover	{
 	text-decoration: none;
+}
+
+#post-short a:link, #post-short a:visited	{
+	text-decoration: none;
+	color:#000
+}
+
+#post-short a:hover	{
+	text-decoration: underline;
 }
 
 #post-short h3, #post h2	{
