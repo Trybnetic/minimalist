@@ -7,6 +7,10 @@
 		{% include nav.html %}
 		<div id="content-left">
       <h2>Category: {{page.category}}</h2>
+      {% assign content = page.content | strip_newlines %}
+      {% if content != ""  %}
+        {{content}}
+      {% endif %}
       {% for post in site.categories[page.category] %}
         <div id="post-short">
           <a href="{{site.url}}{{site.baseurl}}{{post.url}}">
