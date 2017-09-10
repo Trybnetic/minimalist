@@ -12,13 +12,15 @@
         <p>
           {{ content }}
         </p>
-        <div id="categories">
-          <p><b>Categories:</b>&nbsp;
-            {% for category in page.categories %}
-              <a href="{{site.url}}{{site.baseurl}}/categories/{{category}}/">#{{category}}</a>&nbsp;
-            {% endfor %}
-          </p>
-        </div>
+        {% if page.categories.size > 0 %}
+          <div id="categories">
+            <p><b>Categories:</b>&nbsp;
+              {% for category in page.categories %}
+                <a href="{{site.url}}{{site.baseurl}}/categories/{{category}}/">#{{category}}</a>&nbsp;
+              {% endfor %}
+            </p>
+          </div>
+        {% endif %}
   		</div>
     </div>
 		{% include footer.html %}
