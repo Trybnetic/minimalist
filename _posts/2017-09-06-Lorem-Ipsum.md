@@ -3,6 +3,7 @@ layout: post
 title:  "Lorem ipsum"
 date:   2017-09-06 01:03:29 +0200
 categories: jekyll update
+comments: true
 ---
 Eius ut fugiat omnis. Autem nihil dignissimos deserunt eum. In adipisci ipsum natus saepe facere. Aspernatur velit autem sed. Rerum provident non incidunt id expedita aliquam non. Eum sit saepe autem nam aut voluptatem non et.
 

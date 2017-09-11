@@ -7,7 +7,7 @@ url: "https://trybnetic.github.io" # the base hostname & protocol for your site,
 language: en
 twitter_username:
 github_username:
-
+disqus_username: 
 # Build settings
 markdown: kramdown
 theme: minima
