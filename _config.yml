@@ -7,7 +7,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 language: en
 twitter_username:
 github_username:
-
+disqus_username: 
 # Build settings
 markdown: kramdown
 theme: minima
