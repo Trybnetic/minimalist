@@ -3,7 +3,7 @@ owner: Eilleen Zhang
 email: hello@eilleeenz.com
 description: Eilleen Zhang's Blog! for all-purpose posts about various things. Contact me at hello@eilleeenz.com!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.eilleeenz.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://orangeblog.eilleeenz.com" # the base hostname & protocol for your site, e.g. http://example.com
 language: en
 # twitter_username: eilleeenz
 # github_username:
